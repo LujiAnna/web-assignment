@@ -7,12 +7,14 @@ const Image = styled.img `
 width: 218px;
 border-radius: 10px;
 /* margin: 0 auto; */
-margin-top: 390px;
-margin-left: 150px;
+/* margin-top: 390px; */
+/* margin-top: 400px; */
+top: 76%;
+margin-left: 135px;
 z-index: 5;
 position:absolute;
 clip:rect(0px,220px,145px,0px);
-top: 454;
+/* top: 454; */
 /* clip:rect(0px,60px,200px,0px); */
 /* img:hover{
     clip:rect(0px,100px,200px,0px);

@@ -9,12 +9,16 @@ npm start or yarn start
 
 npm install --save styled-components
 
+npm install react-router-dom or yarn add react-router-dom
+
+
 ## Tech used
 
 - [React repo](https://github.com/facebook/create-react-app)
 - [React docs](https://create-react-app.dev/docs/getting-started/)
 - [Styled components](https://styled-components.com)
 - [Vscode extention for styled components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
+- [React Router](https://reactrouter.com/web/guides/quick-start)
 
 
 ## Content

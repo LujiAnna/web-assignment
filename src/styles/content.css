@@ -1,0 +1,23 @@
+
+/* nothing will show coz of higher specificity */
+/* [lang] {
+  display: none;
+  } */
+
+/* [lang] .lang-match {
+  display: inline-block;
+} */
+
+[lang] {
+  /* background-color: red; */
+  /* display: none; */
+}
+
+[lang].lang-match {
+  /* background-color: red; */
+  /* display: block; */
+}
+
+
+
+
