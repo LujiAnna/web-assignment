@@ -22,6 +22,8 @@ html {
     /* add font conduit in folder */
     -webkit-font-smoothing: antialiased;
     font-weight: 300;
+    /* font-size: 3.2vw; */
+    /* font-size: calc(0.5em + 1vw); */
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
@@ -30,7 +32,7 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 body {

@@ -1,7 +1,14 @@
 import React from 'react';
+import { Link, Route, Switch} from "react-router-dom";
 import Content from './components/Content';
+import ContentNL from './components/ContentNL';
+import ContentFR from './components/ContentFR';
 import Navigation from './components/Navigation';
 import styled from 'styled-components';
+// import px2vw from './utils/px2vw';
+// BrowserRouter as Router, Link
+
+
 
 const Container = styled.div `
 min-height: 100vh;
@@ -16,13 +23,19 @@ const Main = styled.main `
     justify-content: center;
 `;
 
+// path - '/' home page, which is content page
+
 const App = () => {
 
   return (
     <Container>
-      <Navigation/>
+      <Navigation link />
         <Main>
-          <Content  />
+          <Switch>
+          <Route component = {ContentNL}  path='/nl' />
+          <Route component = {ContentFR}  path='/fr' />
+          <Route component = {Content} path='/' />
+          </Switch>
         </Main>
     </Container>
   );

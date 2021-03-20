@@ -82,25 +82,24 @@ border-top-left-radius: 0px;
 border-bottom-left-radius: 0px;
 `
 
-const Content = () => {
+const ContentFR = () => {
   return (
-    // <>
-    <Banner lang='en'>
- <Section data-key='section-customer'>
-      <Category text={'For consumers'}/>
-      <Cta text={'Install the Stampix App and order prints in just a few clicks'}/>
-      <Button text={'Start printing'} link={"https://stampix.com"} ></Button>
-      <Icon source={phone} alt='phone'/>
-    </Section>
-    <SectionBusiness data-key='section-business'>
-      <Category text={'For business'}/>
-      <Cta text={'Build emotional loyalty and brand engagement'}/>
-      <Button text={'Stampix for Business'} link = {"https://business.stampix.com"}></Button>
-      <Icon source={partners} alt='partners'/>
-    </SectionBusiness>
-    </Banner>
+<Banner lang='fr'>
+<Section data-key='section-customer'>
+     <Category text={'Pour les consommateurs'}/>
+     <Cta text={'Installez l\'application Stampix et commandez des tirages en quelques clics'}/>
+     <Button text={'Lancer l\'impression'} link={"https://stampix.com"} ></Button>
+     <Icon source={phone} alt='phone'/>
+   </Section>
+   <SectionBusiness data-key='section-business'>
+     <Category text={'Pour le business'}/>
+     <Cta text={'Renforcez la fidélité émotionnelle et l\'engagement de la marque'}/>
+     <Button text={'Stampix pour les entreprises'} link = {"https://business.stampix.com"}></Button>
+     <Icon source={partners} alt='partners'/>
+   </SectionBusiness>
+   </Banner>
   );
 }
 
-export default Content;
+export default ContentFR;
 

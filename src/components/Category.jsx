@@ -18,6 +18,8 @@ const Title = styled.h1`
     letter-spacing: 0px;
     opacity: .7;
     z-index: 1;
+    text-align: center;
+
 `
 
 const Category = ({text}) => {
